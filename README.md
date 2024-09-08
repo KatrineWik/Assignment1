@@ -32,7 +32,7 @@ Once the model is trained, we test it on the remaining 20% of the data (the test
 [Bonus]
 Using the learned parameters, we can visualize the classification boundary between Pop and Classical songs on the liveness vs loudness plot, helping us understand how well the model distinguishes between the two genres.
 
-# Problem 3 - Results
+# Problem 3 
 ### 3a)
 To further evaluate the model’s performance, we use the test set results to generate a confusion matrix. This matrix provides a detailed breakdown of how many songs were correctly and incorrectly classified for each genre.
 
