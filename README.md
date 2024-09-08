@@ -18,7 +18,9 @@ We can create a scatter plot where songs are plotted based on their liveness and
 Logistic regression relies on the sigmoid function, which outputs a value between 0 and 1, with 0.5 acting as the threshold between the two classes. To implement logistic regression, we begin by initializing the weights and bias to zero. Using stochastic gradient descent, we iteratively update these parameters to minimize the error. The update rules for the weights and bias are:
 
 w = w - α * dw
+
 b = b - α * db
+
 Here, α is the learning rate, and the gradients dw and db are computed based on the prediction error (ŷ - y). During training, we monitor the error using the cross-entropy loss function and update the model parameters over several epochs.
 
 To find the best learning rate, we experiment with different values and evaluate the accuracy on the training data. After comparing the results, we find that a learning rate of 0.005 yields the highest accuracy, around 92.56%. This optimal learning rate allows us to effectively train the logistic regression model and produce reliable predictions.
