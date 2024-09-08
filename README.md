@@ -28,8 +28,8 @@ To find the best learning rate, we experiment with different values and evaluate
 ### 2b)
 Once the model is trained, we test it on the remaining 20% of the data (the test set) to evaluate its accuracy in predicting the genre of new songs.
 
-### 2c)
-[Bonus]
+### 2c) 
+[Bonus] (Did not manage to make it work)
 Using the learned parameters, we can visualize the classification boundary between Pop and Classical songs on the liveness vs loudness plot, helping us understand how well the model distinguishes between the two genres.
 
 # Problem 3 
