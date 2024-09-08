@@ -20,7 +20,7 @@ w = w - α * dw
 b = b - α * db
 Here, α is the learning rate, and the gradients dw and db are computed based on the prediction error (ŷ - y). During training, we monitor the error using the cross-entropy loss function and update the model parameters over several epochs.
 
-To find the best learning rate, we experiment with different values and evaluate the accuracy on the training data. After comparing the results, we find that a learning rate of 0.001 yields the highest accuracy, around 92.57%. This optimal learning rate allows us to effectively train the logistic regression model and produce reliable predictions.
+To find the best learning rate, we experiment with different values and evaluate the accuracy on the training data. After comparing the results, we find that a learning rate of 0.005 yields the highest accuracy, around 92.56%. This optimal learning rate allows us to effectively train the logistic regression model and produce reliable predictions.
 
 ### 2b)
 Once the model is trained, we test it on the remaining 20% of the data (the test set) to evaluate its accuracy in predicting the genre of new songs.
